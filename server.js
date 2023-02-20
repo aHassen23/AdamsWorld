@@ -6,7 +6,7 @@ const contactsRouter = require('./routes/contact')
 
 app.set('view engine', 'ejs')
 app.use('/projects', projectsRouter)
-app.use('contact', contactsRouter)
+app.use('/contact', contactsRouter)
 
 app.get('/' , (req,res) => {
     res.render('index')
