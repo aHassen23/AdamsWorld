@@ -1,2 +1,2 @@
 # AdamsWorld
-My personal business website
+My personal website
